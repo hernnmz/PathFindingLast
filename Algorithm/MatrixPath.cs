@@ -31,7 +31,7 @@ namespace Algorithm
         {
             for (int i = 0; i <= _totalCells; i++)
             {
-                _currentCell = _dataMatrix.SortedListNode[0];
+                _currentCell = _dataMatrix.SortedListNode[i];
 
                 Node parent = new Node()
                 {
@@ -41,7 +41,7 @@ namespace Algorithm
                 };
 
                 FindPathNodes(parent, 0);
-                _dataMatrix.SortedListNode.Remove(_currentCell);
+                //_dataMatrix.SortedListNode.Remove(_currentCell);
             }
         }
 
