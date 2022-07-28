@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathFinding", "PathFinding\PathFinding.csproj", "{F6714E66-CB65-4F08-AC4F-80686AE087CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm", "Algorithm\Algorithm.csproj", "{67F89B1B-B033-41F3-8513-EACF6E6F6E3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{3367F5C0-7549-4B2C-B29A-28CD4862EE06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6714E66-CB65-4F08-AC4F-80686AE087CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6714E66-CB65-4F08-AC4F-80686AE087CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6714E66-CB65-4F08-AC4F-80686AE087CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6714E66-CB65-4F08-AC4F-80686AE087CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F89B1B-B033-41F3-8513-EACF6E6F6E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F89B1B-B033-41F3-8513-EACF6E6F6E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F89B1B-B033-41F3-8513-EACF6E6F6E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F89B1B-B033-41F3-8513-EACF6E6F6E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3367F5C0-7549-4B2C-B29A-28CD4862EE06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3367F5C0-7549-4B2C-B29A-28CD4862EE06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3367F5C0-7549-4B2C-B29A-28CD4862EE06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3367F5C0-7549-4B2C-B29A-28CD4862EE06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {124088B8-E039-4CCF-8F40-69FE19A07C43}
+	EndGlobalSection
+EndGlobal
